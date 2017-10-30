@@ -1,0 +1,118 @@
+/* Show it is fixed to the top */
+body {
+
+  padding-top: 6rem;
+  margin-bottom:40px;
+}
+
+a:link { color: #777777; }
+a:visited { color: gray; }
+a:hover { color: #4aaaa5;; }
+a:active { color: #cccccc }
+
+.container-fluid{
+	background-image: url("../images/intersection.png");
+	background-repeat: repeat;
+
+}
+
+.card{
+margin-top:20px;
+margin-bottom:20px;
+
+}
+
+.name-section{
+	background: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding:21px;
+	font-size:24px;
+	font-weight: bold;
+}
+
+.articleheader{
+	background: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+	margin:20px 20px 20px 10px;
+	padding-bottom: 16px;
+	font-size:24px;
+	font-weight: bold;
+}
+
+.asideheader{
+	background: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+	margin:20px;
+	font-size:20px;
+	font-weight: bold;
+	padding-bottom:20px;
+}
+
+.thetext{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.profilepic{
+	width:300px;
+	margin:0px 30px 20px 0px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.myfooter {
+  	background:#666666;
+  	border-top-width: 5px;
+  	border-top-style:solid;
+  	border-color: #4aaaa5;
+  	padding:10px;
+}
+
+.mybutton{
+    background-color:#4aaaa5;
+}
+
+.textbox{
+	resize:none;
+}
+
+.projecttext{
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding:15px;
+	font-size:20px;
+	width:100%;
+	text-align: center;
+	height:60px;
+	position:relative;
+	bottom: 90px;
+	max-width:400px;
+}
+
+/* The animation code */
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: #4aaaa5;}
+}
+
+/* The element to apply the animation to */
+.name-section {
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.projecttext {
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@media (max-width: 640px) {
+	.navbar{
+		position:static;
+		margin-top:0px;
+		position:absolute;
+	}
+	.centerme{
+		margin:auto;
+	}
+}
